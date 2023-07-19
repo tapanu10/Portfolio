@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: '#fff', marginRight: '2rem' }} />
             <div>
-              <p>123 housing society</p>
-              <p>Bangladesh</p>
+              <p>Telibagh Lucknow</p>
+              <p>uttar pradesh</p>
             </div>
           </div>
           <div className='phone'>
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="right">
             <h4>About the company</h4>
             <p>
-                this me tapan .ceo of tapantech
+              This is tapan here website developer
             </p>
             <div className='social'>
             <FaFacebook size={20} 
