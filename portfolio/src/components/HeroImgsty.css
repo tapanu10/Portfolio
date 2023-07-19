@@ -1,0 +1,75 @@
+/* HeroImgsty.css */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0.6;
+  }
+  
+  .intro-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: #f8d90f;
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  
+  .btn-light {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  .btn:hover {
+    background-color: #f0c800;
+  }
+  
+  .btn-light:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  

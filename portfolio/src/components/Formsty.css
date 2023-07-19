@@ -1,0 +1,114 @@
+/* Formsty.css */
+
+.form {
+    max-width: 500px;/* Formsty.css */
+
+    .form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    label {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 10px;
+      color: #fff; /* Set the color of the label text to white */
+    }
+    
+    input,
+    textarea {
+      margin-top: 5px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      color: #000; /* Set the color of the input text to black */
+      background-color: #fff; /* Set the background color of the input to white */
+    }
+    
+    textarea {
+      resize: vertical;
+    }
+    
+    button.btn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      background-color: #f8d90f;
+      color: #222;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    button.btn:hover {
+      background-color: #f5c907;
+    }
+    
+    @media (max-width: 600px) {
+      .form {
+        max-width: 100%;
+      }
+    }
+    
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #f8d90f;
+    color: #222;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.btn:hover {
+    background-color: #f5c907;
+  }
+  
+  @media (max-width: 600px) {
+    .form {
+      max-width: 100%;
+    }
+  }
+  

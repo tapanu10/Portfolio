@@ -1,0 +1,24 @@
+/* HeroImg2sty.css */
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .heading h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heading p {
+    font-size: 1.2rem;
+  }
+  
